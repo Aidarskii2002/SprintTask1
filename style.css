@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    margin: 10px;
+}
+p {
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+    background: darkred;
+}
+.menuNav1{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.menuNav1 p {
+    font-weight: bold;
+}
+.menuNav1 span {
+    font-weight: lighter;
+}
+.menuNav2 {
+    display: flex;
+    margin-left: 650px;
+}
+.menuNav2 p{
+    color: #ffffff;
+}
+
+.contentNews1 {
+    background: lightblue;
+    display: flex;
+}
+.contentNewsImg1 {
+    width: 100%;
+    height: 100%;
+}
+.pageLabel {
+    text-align: center;
+}
+.headerNews {
+    font-size: 20px;
+    font-weight: bold;
+}
+.contentAllNews {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.AllNews{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    background-color: #fff;
+}
+
+.contentNews{
+    text-align: center;
+    padding: 1px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contentNewsImage{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contentNewsText{
+    font-size: 16px;
+    color: #333;
+}
+
+.contentNews button {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.contentNews button:hover {
+    background-color: red;
+}
+
+.contentNews:hover {
+    transform: scale(1.03); /* Увеличение при наведении */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
